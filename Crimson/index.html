@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Crimson Table</title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+    href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- CURSOR GLOW -->
+
+<div class="cursor-glow"></div>
+
+<!-- AMBIENT LIGHTS -->
+
+<div class="ambient-light light-1"></div>
+
+<div class="ambient-light light-2"></div>
+
+
+    <!-- NAVBAR -->
+<nav>
+
+    
+    <!-- PARTICLES -->
+
+<div class="particles">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+    <!-- LOGO -->
+
+    <div class="logo">
+        Crimson Table
+    </div>
+
+    <!-- NAV LINKS -->
+
+    <ul class="nav-links" id="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#menu">Menu</a></li>
+
+        <li><a href="#gallery">Gallery</a></li>
+
+        <li><a href="#reviews">Reviews</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+            <!-- HAMBURGER -->
+
+<div class="hamburger" id="hamburger">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+
+   <div class="nav-buttons">
+
+<!-- CART -->
+
+<div class="cart-icon">
+
+    <i class="fa-solid fa-cart-shopping"></i>
+
+    <span id="cart-count">0</span>
+
+</div>
+
+    <!-- THEME TOGGLE -->
+
+    <button id="theme-toggle">
+
+        <i class="fa-solid fa-moon"></i>
+
+    </button>
+
+    <!-- RESERVE BUTTON -->
+<a href="#contact">
+    <button class="reserve-btn">
+        Reserve Now
+    </button>
+    </a>
+
+</div>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="subtitle">
+            Luxury Café Experience
+        </p>
+
+        <h1>
+            Taste Elegance <br>
+            In Every Bite
+        </h1>
+
+        <p class="description">
+
+            Crimson Table blends modern café culture
+            with luxurious dining, creating unforgettable
+            moments wrapped in rich flavors and warm ambience. <br>
+            Welcome to Crimson Table, where hunger meets luxury..
+
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#menu" class="primary-btn">
+                Explore Menu
+            </a>
+
+            <a href="#contact" class="secondary-btn">
+                Order Food
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- DIVIDER -->
+
+<div class="divider">
+
+    <svg
+    viewBox="0 0 1440 120"
+    preserveAspectRatio="none">
+
+        <path
+        d="M0,64L80,74.7C160,85,320,107,480,101.3C640,96,800,64,960,58.7C1120,53,1280,75,1360,85.3L1440,96L1440,120L0,120Z">
+
+        </path>
+
+    </svg>
+
+</div>
+
+<!-- SIGNATURE DISHES -->
+
+<section class="dishes reveal" id="menu">
+
+    <div class="section-title">
+
+        <p>Chef Recommendations</p>
+
+        <h2>
+            Signature Dishes
+        </h2>
+
+    </div>
+
+    <!-- CARDS -->
+
+    <div class="dish-container">
+
+        <!-- CARD 1 -->
+
+        <div class="dish-card">
+
+            <img
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1974&auto=format&fit=crop"
+            alt="Dish">
+
+            <div class="dish-info">
+
+                <h3>Grilled Steak</h3>
+
+                <p>
+                    Premium beef grilled to perfection
+                    with rich herb butter sauce.
+                </p>
+
+                <div class="dish-bottom">
+
+    <span>$28</span>
+
+    <button
+    class="order-btn"
+    data-name="Grilled Steak"
+    data-price="28">
+
+        Order
+
+    </button>
+
+</div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="dish-card">
+
+            <img
+            src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1981&auto=format&fit=crop"
+            alt="Dish">
+
+            <div class="dish-info">
+
+                <h3>Italian Pizza</h3>
+
+                <p>
+                    Stone baked pizza layered with
+                    premium mozzarella and basil.
+                </p>
+
+                <div class="dish-bottom">
+
+    <span>$22</span>
+
+    <button
+    class="order-btn"
+    data-name="Italian Pizza"
+    data-price="22">
+
+        Order
+
+    </button>
+
+</div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="dish-card">
+
+            <img
+            src="https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=1935&auto=format&fit=crop"
+            alt="Dish">
+
+            <div class="dish-info">
+
+                <h3>Luxury Dessert</h3>
+
+                <p>
+                    Smooth layered dessert crafted
+                    for a rich café experience.
+                </p>
+
+                <div class="dish-bottom">
+
+    <span>$18</span>
+
+    <button
+    class="order-btn"
+    data-name="Luxury Dessert"
+    data-price="18">
+
+        Order
+
+    </button>
+
+</div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 4 -->
+
+<div class="dish-card">
+
+    <img
+    src="https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1974&auto=format&fit=crop"
+    alt="Dish">
+
+    <div class="dish-info">
+
+        <h3>Seafood Pasta</h3>
+
+        <p>
+            Creamy pasta infused with premium
+            seafood and rich parmesan flavors.
+        </p>
+
+        <div class="dish-bottom">
+
+    <span>$26</span>
+
+    <button
+    class="order-btn"
+    data-name="Seafood Pasta"
+    data-price="26">
+
+        Order
+
+    </button>
+
+</div>
+
+    </div>
+
+</div>
+
+<!-- CARD 5 -->
+
+<div class="dish-card">
+
+    <img
+    src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2070&auto=format&fit=crop"
+    alt="Dish">
+
+    <div class="dish-info">
+
+        <h3>Fresh Garden Salad</h3>
+
+        <p>
+            Crisp vegetables paired with
+            signature dressing and soft cheese.
+        </p>
+
+        <div class="dish-bottom">
+
+    <span>$16</span>
+
+    <button
+    class="order-btn"
+    data-name="Fresh Garden Salad"
+    data-price="16">
+
+        Order
+
+    </button>
+
+</div>
+
+    </div>
+
+</div>
+
+<!-- CARD 6 -->
+
+<div class="dish-card">
+
+    <img
+    src="https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=1974&auto=format&fit=crop"
+    alt="Dish">
+
+    <div class="dish-info">
+
+        <h3>Classic Burger</h3>
+
+        <p>
+            Juicy flame grilled beef stacked
+            with cheddar and crispy onions.
+        </p>
+
+         <div class="dish-bottom">
+
+    <span>$21</span>
+
+    <button
+    class="order-btn"
+    data-name="Classic Burger"
+    data-price="21">
+
+        Order
+
+    </button>
+
+</div>
+
+    </div>
+
+</div>
+
+<!-- CARD 7 -->
+
+<div class="dish-card">
+
+    <img
+    src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1974&auto=format&fit=crop"
+    alt="Dish">
+
+    <div class="dish-info">
+
+        <h3>Signature Steak</h3>
+
+        <p>
+            Tender steak glazed with herb butter
+            and served with roasted potatoes.
+        </p>
+
+         <div class="dish-bottom">
+
+    <span>$34</span>
+
+    <button
+    class="order-btn"
+    data-name="Signature Steak"
+    data-price="34">
+
+        Order
+
+    </button>
+
+</div>
+
+    </div>
+
+</div>
+
+<!-- CARD 8 -->
+
+<div class="dish-card">
+
+    <img
+    src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=2010&auto=format&fit=crop"
+    alt="Dish">
+
+    <div class="dish-info">
+
+        <h3>Luxury Breakfast</h3>
+
+        <p>
+            Pancakes, eggs, berries and syrup
+            crafted for elegant brunch mornings.
+        </p>
+
+         <div class="dish-bottom">
+
+    <span>$19</span>
+
+    <button
+    class="order-btn"
+    data-name="Luxury Breakfast"
+    data-price="19">
+
+        Order
+
+    </button>
+
+</div>
+
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+<!-- DIVIDER -->
+
+<div class="divider">
+
+    <svg
+    viewBox="0 0 1440 120"
+    preserveAspectRatio="none">
+
+        <path
+        d="M0,64L80,74.7C160,85,320,107,480,101.3C640,96,800,64,960,58.7C1120,53,1280,75,1360,85.3L1440,96L1440,120L0,120Z">
+
+        </path>
+
+    </svg>
+
+</div>
+
+
+<!-- GALLERY SECTION -->
+
+<section class="gallery reveal" id="gallery">
+
+    <div class="section-title">
+
+        <p>Luxury Moments</p>
+
+        <h2>Our Gallery</h2>
+
+    </div>
+
+    <!-- GALLERY GRID -->
+
+    <div class="gallery-container">
+
+        <div class="gallery-item">
+            <img
+            src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1974&auto=format&fit=crop"
+            alt="">
+        </div>
+
+        <div class="gallery-item">
+            <img
+            src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1974&auto=format&fit=crop"
+            alt="">
+        </div>
+
+        <div class="gallery-item">
+            <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop"
+            alt="">
+        </div>
+
+        <div class="gallery-item">
+            <img
+            src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=2070&auto=format&fit=crop"
+            alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- DIVIDER -->
+
+<div class="divider">
+
+    <svg
+    viewBox="0 0 1440 120"
+    preserveAspectRatio="none">
+
+        <path
+        d="M0,64L80,74.7C160,85,320,107,480,101.3C640,96,800,64,960,58.7C1120,53,1280,75,1360,85.3L1440,96L1440,120L0,120Z">
+
+        </path>
+
+    </svg>
+
+</div>
+
+<!-- INTERACTIVE MENU -->
+
+<section class="menu-section reveal" id="full-menu">
+
+    <div class="section-title">
+
+        <p>Curated Selection</p>
+
+        <h2>Our Menu</h2>
+
+    </div>
+
+    <!-- FILTER BUTTONS -->
+
+    <div class="menu-filters">
+
+        <button class="filter-btn active"
+        data-filter="all">
+
+            All
+
+        </button>
+
+        <button class="filter-btn"
+        data-filter="breakfast">
+
+            Breakfast
+
+        </button>
+
+        <button class="filter-btn"
+        data-filter="dinner">
+
+            Dinner
+
+        </button>
+
+        <button class="filter-btn"
+        data-filter="dessert">
+
+            Desserts
+
+        </button>
+
+        <button class="filter-btn"
+        data-filter="drinks">
+
+            Drinks
+
+        </button>
+
+    </div>
+
+    <!-- MENU ITEMS -->
+
+    <div class="menu-container">
+
+        <!-- ITEM -->
+
+        <div class="menu-item breakfast">
+
+            <img
+            src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=2010&auto=format&fit=crop"
+            alt="">
+
+            <div class="menu-info">
+
+                <h3>Luxury Pancakes</h3>
+
+                <p>$18</p>
+
+            </div>
+
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="menu-item dinner">
+
+            <img
+            src="https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=1974&auto=format&fit=crop"
+            alt="">
+
+            <div class="menu-info">
+
+                <h3>Classic Burger</h3>
+
+                <p>$24</p>
+
+            </div>
+
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="menu-item dessert">
+
+            <img
+            src="https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=1935&auto=format&fit=crop"
+            alt="">
+
+            <div class="menu-info">
+
+                <h3>Chocolate Dessert</h3>
+
+                <p>$14</p>
+
+            </div>
+
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="menu-item drinks">
+
+            <img
+            src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1974&auto=format&fit=crop"
+            alt="">
+
+            <div class="menu-info">
+
+                <h3>Signature Cocktail</h3>
+
+                <p>$16</p>
+
+            </div>
+
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="menu-item dinner">
+
+            <img
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1974&auto=format&fit=crop"
+            alt="">
+
+            <div class="menu-info">
+
+                <h3>Premium Steak</h3>
+
+                <p>$36</p>
+
+            </div>
+
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="menu-item drinks">
+
+            <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1974&auto=format&fit=crop"
+            alt="">
+
+            <div class="menu-info">
+
+                <h3>Caramel Latte</h3>
+
+                <p>$12</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- DIVIDER -->
+
+<div class="divider">
+
+    <svg
+    viewBox="0 0 1440 120"
+    preserveAspectRatio="none">
+
+        <path
+        d="M0,64L80,74.7C160,85,320,107,480,101.3C640,96,800,64,960,58.7C1120,53,1280,75,1360,85.3L1440,96L1440,120L0,120Z">
+
+        </path>
+
+    </svg>
+
+</div>
+
+<!-- REVIEWS SECTION -->
+
+<section class="reviews reveal" id="reviews">
+
+    <div class="section-title">
+
+        <p>Guest Experiences</p>
+
+        <h2>What Our Customers Say</h2>
+
+    </div>
+
+    <!-- REVIEW CONTAINER -->
+
+    <div class="review-container">
+
+        <!-- REVIEW 1 -->
+
+        <div class="review-card">
+
+            <div class="stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+            </div>
+
+            <p>
+
+                The ambience was breathtaking and the food
+                felt like art on a plate. Crimson Table
+                easily became my favorite café in town.
+
+            </p>
+
+            <div class="customer">
+
+                <img
+                src="https://randomuser.me/api/portraits/women/44.jpg"
+                alt="Customer">
+
+                <div>
+
+                    <h4>Sophia Bennett</h4>
+
+                    <span>Food Blogger</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- REVIEW 2 -->
+
+        <div class="review-card">
+
+            <div class="stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+            </div>
+
+            <p>
+
+                Every detail screams luxury. From the
+                lighting to the desserts, everything
+                felt premium and unforgettable.
+
+            </p>
+
+            <div class="customer">
+
+                <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Customer">
+
+                <div>
+
+                    <h4>Daniel Moore</h4>
+
+                    <span>Entrepreneur</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- REVIEW 3 -->
+
+        <div class="review-card">
+
+            <div class="stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+            </div>
+
+            <p>
+
+                Crimson Table blends modern café vibes
+                with fine dining elegance perfectly.
+                Absolutely worth every visit.
+
+            </p>
+
+            <div class="customer">
+
+                <img
+                src="https://randomuser.me/api/portraits/women/68.jpg"
+                alt="Customer">
+
+                <div>
+
+                    <h4>Emily Carter</h4>
+
+                    <span>Travel Creator</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- DIVIDER -->
+
+<div class="divider">
+
+    <svg
+    viewBox="0 0 1440 120"
+    preserveAspectRatio="none">
+
+        <path
+        d="M0,64L80,74.7C160,85,320,107,480,101.3C640,96,800,64,960,58.7C1120,53,1280,75,1360,85.3L1440,96L1440,120L0,120Z">
+
+        </path>
+
+    </svg>
+
+</div>
+
+<!-- RESERVATION SECTION -->
+
+<section class="reservation reveal" id="contact">
+
+    <div class="reservation-content">
+
+        <p>Reserve Your Experience</p>
+
+        <h2>
+            Book A Table At Crimson Table
+        </h2>
+
+        <span>
+
+            Enjoy luxurious dining, handcrafted meals,
+            and unforgettable moments in a warm,
+            elegant atmosphere.
+
+        </span>
+
+        <!-- BUTTON -->
+
+        <a
+        href="https://wa.me/2348124264058"
+        target="_blank"
+        class="whatsapp-btn">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            Reserve via WhatsApp
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- CART PANEL -->
+
+<div class="cart-panel" id="cart-panel">
+    <div class="cart-header">
+
+    <h2>Your Order</h2>
+
+    <button id="close-cart">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+</div>
+
+    <!-- CART ITEMS -->
+
+    <div id="cart-items">
+
+        <p class="empty">
+            No items added.
+        </p>
+
+    </div>
+
+    <!-- TOTAL -->
+
+    <div class="cart-total">
+
+        Total:
+        $<span id="cart-total">0</span>
+
+    </div>
+
+<button class="whatsapp-checkout" onclick="sendToWhatsApp()">
+    Send Order on WhatsApp
+</button>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <!-- BRAND -->
+
+        <div class="footer-box">
+
+            <h2>Crimson Table</h2>
+
+            <p>
+
+                Modern luxury café crafted for
+                unforgettable dining experiences,
+                elegant ambience, and premium flavors.
+
+            </p>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Gallery</a>
+            <a href="#">Reviews</a>
+
+        </div>
+
+        <!-- OPENING HOURS -->
+
+        <div class="footer-box">
+
+            <h3>Opening Hours</h3>
+
+            <p>Monday - Friday: 9AM - 11PM</p>
+
+            <p>Saturday: 10AM - 1AM</p>
+
+            <p>Sunday: 10AM - 9PM</p>
+
+        </div>
+
+        <!-- SOCIALS -->
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="tiktok.com/@_thatgurl.steffy_">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+
+    <div class="footer-bottom">
+
+        © 2026 Crimson Table.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+<!-- AMBIENT AUDIO -->
+
+<audio
+id="ambient-audio"
+loop>
+
+    <source
+    src="audio\lounge.mp3"
+    type="audio/mpeg">
+
+</audio>
+
+<!-- AUDIO BUTTON -->
+
+<button id="audio-toggle">
+
+    <i class="fa-solid fa-music"></i>
+
+</button>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
